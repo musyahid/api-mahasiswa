@@ -21,8 +21,8 @@ $ Lalu didalam project Jalankan perintah : composer install
 ```bash
 $ Buat file pada directory utama dengan nama .env
 $ Isikan variabelnya sesuai dengan contoh yang ada pada file .env.example
-$ BASE_URL terdapat pada deskripsi group
-$ Email dan Password silakan diisi dengan Akun pada saat login di aplikasi https://srs5g.ut.ac.id
+$ Variabel BASE_URL terdapat pada deskripsi group
+$ Variabel Email dan Password silakan diisi dengan Akun pada saat login di aplikasi https://srs5g.ut.ac.id
 ```
 
 SELAMAT MENCOBA :)
