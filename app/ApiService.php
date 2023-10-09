@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 
-$dotenv = Dotenv\Dotenv::createImmutable('C:\xampp\htdocs\oop-api');
+$dotenv = Dotenv\Dotenv::createImmutable('C:\xampp\htdocs\api-mahasiswa');
 $dotenv->load();
 
 class ApiService {
