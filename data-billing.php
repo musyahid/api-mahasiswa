@@ -75,7 +75,7 @@ $mahasiswa = new Mahasiswa;
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php foreach($hasil['dataPribadi'] as $row) { ?>
+                                    <?php foreach($hasil['dataBilling'] as $row) { ?>
                                     <tr>
                                         <td><?= $row['nim'] ?></td>
                                         <td><?= $row['masa']['masa'] ?></td>
