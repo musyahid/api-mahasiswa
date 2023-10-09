@@ -49,7 +49,7 @@ $sheet->getStyle('A2:' . $highestColumn . '2')->applyFromArray($styleArray);
 $hasil = $mahasiswa->getBillingByNomorBillingDanMasa($nim, $masa);
 
 $count = 3;
-foreach($hasil['dataPribadi'] as $row){
+foreach($hasil['dataBilling'] as $row){
     $spreadsheet->getActiveSheet()->fromArray(array(
 		$row['nim'], 
 		$row['masa']['masa'],
